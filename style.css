@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+.body{
+    background-image: url(./images/IMG_6154.JPEG);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.Welcome a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: antiquewhite;
+    padding: 2rem 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 47px;
+
+}
+
+.list {
+    display: none; /* Изначально скрыть иконку на больших экранах */
+    cursor: pointer;
+    height:50px;
+}
+
+nav{
+    width:100%;
+    height:50px;
+    background-color: #362923;
+}
+
+nav ul{
+    list-style-type: none; /* Убираем маркеры (точки) у списка */
+    display: flex; 
+    gap: 40px;
+    justify-content: center;
+    align-items: center; /* Выравниваем элементы по вертикали */
+    margin: 0;
+    visibility: visible;
+}
+
+nav ul li {
+    line-height: 50px; /* Выравниваем текст по вертикали по середине элемента списка */
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ad8b72;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: #C43731;
+}
+
+@media (max-width: 768px) {
+    .list {
+        display: block; /* Показать иконку на маленьких экранах */
+    }
+
+    nav ul{
+        visibility: hidden; /* Скрыть навигационное меню на маленьких экранах */
+        flex-direction: column;
+        gap: 0px;
+        padding: 0;
+        margin: 0;
+        align-items:start;
+    }
+
+    nav ul li{
+        background-color: rgba(54, 41, 35, 0.9);
+        width: 60px;
+        padding: 0 1rem;
+    }
+/* 
+    .nav{
+        background-color: rgba(54, 41, 35, 0.8);
+    } */
+    
+}
+
+.hello{
+    background-image: url(./images/Art\ history2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+
+}
+
+.hello img{
+    z-index: 1;
+    margin-top: -2rem; /* Отрицательный отступ для приближения изображения к тексту */
+
+}
+
+.hello h2{
+    font-size: 3rem;
+    color: #FEFEFF;
+    margin: 0;
+    padding-top:1rem;
+}
+
+.span{
+    color: transparent; /* Прозрачный цвет текста */
+    background-image: url(./images/IMG_6159.PNG);
+    background-position: center;
+    -webkit-background-clip: text; /* Применяем фоновое изображение к тексту для браузеров на основе WebKit */
+    background-clip: text; 
+}
+
+.hello p{
+    font-size: 2rem;
+    color: #FEFEFF;
+    padding-bottom: 2rem; 
+    margin-top: -2rem; 
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+    html{
+        font-size: 10px;
+    }
+    .hello h2{
+        font-size: 3rem;}
+    
+    .hello p{
+        font-size: 2rem;}
+
+        .hello img{
+            height:350px;
+            margin-top: -2rem;
+        }
+
+}
+
+.about{
+    display: flex;
+}
+
+
+.About{
+    background-color: #362923;
+    color: #FEFEFF;
+    width:50%;
+    text-align: center;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирует содержимое по вертикали */
+    align-items: center;
+}
+
+.About h2{
+    font-size: 5rem;
+    margin: 0;
+}
+
+.About p{
+    font-size: 1.2rem;
+}
+
+.Consultation{
+    width:50%;
+    background-image: url(./images/Art\ history2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирует содержимое по вертикали */
+    align-items: center;
+    font-size: 20px;
+    color: #FEFEFF;
+}
+
+.btn{
+    text-decoration: none;
+    color: #362923;
+    border: 1px solid #362923;
+    border-radius: 50px;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #E8E1D1;
+    z-index: 1;
+    margin-top: -1rem; /* Отрицательный отступ для приближения изображения к тексту */
+
+}
+
+.btn:hover{
+    color: #E8E1D1;
+    background-color: #362923;
+}
+
+.Consultation p{
+background-color: rgba(54, 41, 35, 0.8);
+padding: 2rem;
+margin:0 1rem;
+text-align: center;
+font-size: 1.2rem;
+}
+
+span a{
+    text-decoration: none;
+    color: #C43731;
+}
+
+@media (max-width: 768px) {
+
+    .about{display: flex;
+    flex-direction:column;
+}
+    .About{
+        width: auto;
+    }
+
+    .Consultation{
+        width: auto;
+    }
+
+    .About h2{
+        font-size: 5rem;
+        margin: 0;
+    }
+
+    .About p{
+        font-size: 2rem;
+    }
+
+    .Consultation p{
+        font-size: 2rem;
+    }
+
+    .Consultation{
+        padding: 5rem;
+    }
+}
+
+#portfolio{
+    background-color: #B7A191;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap:5rem;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.portfolio-item{
+    border: 5px solid #362923;
+    border-radius: 8%;
+    position: relative;
+}
+
+.portfolio-item a {
+    display: block; /* Устанавливаем блочный тип отображения */
+    height: 300px; /* Задаем высоту элемента равной 100% */
+}
+
+.lastimg{
+    border-radius: 7%;
+}
+
+.description {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(54, 41, 35, 0.9);
+    width: 247px;
+    height: 22%;
+    padding: 1.5rem;
+    border-radius: 0 0 10% 10%; /* Округляем только нижние углы */
+    text-align: center;
+    text-decoration: none;
+    color: #cbb4a3;
+    font-size: 2rem;
+  }
+
+
+
+@media (max-width: 768px){
+
+  .description {
+    width: 243px;
+    font-size: 3rem;
+    padding: 3rem;
+  }
+}
+
+  .portfolio-item:hover .description {
+    display: block;
+  }
+
+@media (max-width: 768px){
+    #portfolio{
+        display: none; 
+        }
+    
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cnt{
+    text-decoration: none;
+    color: #362923;
+    border: 1px solid #362923;
+    border-radius: 50px;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #E8E1D1;
+    width: 30%;
+}
+
+.cnt:hover{
+    color: #E8E1D1;
+    background-color: #362923;
+
+}
+
+.pt{
+    background-color: #B7A191;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 5rem;
+}
+
+
+@media (max-width: 768px){
+    .cnt{
+        width: 50%; 
+        padding: 1.5rem;
+        }
+
+    .portfolio{
+        background-color: #B7A191;
+        display: flex;
+        flex-direction: column;
+        gap:5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0rem 6rem 0rem;   
+    }
+
+}
+
+.back{
+    height:40px;
+    padding-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+

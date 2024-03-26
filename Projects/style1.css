@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 20px;
+}
+
+.body{
+    background-color:#E8E1D1 ;
+}
+
+nav{
+    width:100%;
+    height:50px;
+    background-color: #362923;
+}
+
+.back{
+    height:40px;
+    padding-left: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.FLORAL{
+    background-color: #ffffff;
+    text-align: center;
+    height: 50vh;
+}
+
+.BF{
+    background-color: #ffffff;
+    text-align: center;
+    height: 80vh; 
+    background-image: url(./images/cakeback.jpg);  
+    background-size: contain;
+}
+
+
+
+.BF h1{
+    color:#FFF0F5;
+    font-size:12rem ;
+    text-shadow: 10px 4px 4px rgba(54, 41, 35, 0.9); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+.Photog{
+    background-image: url(./images/33.jpg);
+    text-align: center;
+    height: 70vh;
+}
+
+h1{
+    color:transparent;
+    background-image: url(./images/Où\ commander\ des\ fleurs\ pendant\ le\ confinement_.jpg);
+    background-position: right;
+    -webkit-background-clip: text; /* Применяем фоновое изображение к тексту для браузеров на основе WebKit */
+    background-clip: text; 
+    font-size:10rem ;
+    margin: 0;
+    padding: 0 1rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: italic;}
+
+
+.Photog h1{
+    color:#FFF0F5;
+    font-family: "Overlock", sans-serif;
+    font-family: "Archivo Black", sans-serif;
+    font-size:7rem ;
+    font-weight: 400;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.9); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+
+.task{
+    background-color: rgb(54, 41, 35);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem 10rem;
+    font-family: "Overlock", sans-serif;
+    color: #B7A191;
+}
+
+#task2{
+    font-family: "Archivo Black", sans-serif;
+    background-color: #050203;
+}
+
+.font{
+    padding: 3rem 15rem;
+    font-size: 2rem;
+    color: #090704;
+}
+
+.font3{
+    padding: 0rem 15rem 3rem 15rem;
+    font-size: 2rem;
+}
+
+.overlock{
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.TNR{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+
+p.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.logo{
+    text-align: center;
+    margin-top: -6rem; 
+}
+
+p.overlock{
+    font-weight: lighter;
+    font-size: 2.2rem;
+}
+
+.inter{
+    font-family: "Inter Tight", sans-serif;
+    margin: 0;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.archivo{
+    margin: 0;
+    padding-top: 1rem;
+    text-align: right;
+    font-family: "Archivo Black", sans-serif;
+}
+
+p.archivo{
+    font-size:1.8rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: rgb(54, 41, 35);
+}
+
+.pl{
+    background-color: #E5E4E2;
+    padding: 1rem;
+}
+
+.img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:300px;
+}
+
+.img1{
+    background-image: url(./images/`现在\ 1.png);
+}
+
+.lav{
+    background-color: #FFF0F5;
+    padding: 1rem;
+}
+
+.img2{
+    background-image: url(./images/Lavender\ 1.png);
+}
+
+.moss{
+    background-color: #536646;
+    padding: 1rem;
+}
+
+.img3{
+    background-image: url(./images/ad19a98d-3938-4f04-bc84-114b681f23fa\ 1.png);
+}
+
+.peach{
+    background-color: #FFE5B4;
+    padding: 1rem;
+}
+
+.img4{
+    background-image: url(./images/ILK\ Perfume\ -\ Sincere.jpg);
+}
+
+.raisin{
+    background-color: #242124;
+    padding: 1rem;
+    color:#FFFAFA;
+}
+
+.img5{
+    background-image: url(./images/download\ \(6\).jpg);
+}
+
+.bl{
+    background-color: #050203;
+    padding: 1rem; 
+    color:#FFFAFA ;
+}
+
+.img6{
+    background-image: url(./images/BlackOnBlack.jpg);
+}
+
+.wh{
+    background-color: #FFFAFA;
+    padding: 1rem; 
+}
+
+.img7{
+    background-image: url(./images/61a039d6-65eb-48ff-ba1a-af327ba101cb.jpg);
+}
+
+.red{
+    background-color: #4d0000;
+    padding: 1rem;
+    color:#FFFAFA ; 
+}
+.img8{
+    background-image: url(./images/e876625b-cb3d-41bf-a5ed-e38092033cd5.jpg);
+}
+
+.carrot{
+    background-color: #ff884d;
+    padding: 1rem;
+}
+
+.img9{
+    background-image: url(./images/Carrot\ Cake\ With\ Cream\ Cheese\ Frosting\ _\ Butternut\ Bakery.jpg);
+}
+
+.desktop{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.desktop-img{
+height: 500px;
+width: fit-content;
+}
+
+
+@media (max-width: 768px){
+
+html{
+    font-size: 10px;
+}
+
+.FLORAL{
+    height: 30vh;
+}
+
+h1{
+    font-size:10rem ;
+}
+
+.Photog{
+    height: 30vh;
+}
+
+.Photog h1{
+    font-size:4rem ;
+}
+
+.task{
+    font-size: 1.7rem;
+    padding: 3rem;
+}
+
+.font{
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.font3{
+    padding:0 3rem 3rem 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.colors{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    font-size: 1.5rem;
+    background-color: #ffffff;
+    gap:0;
+    padding: 0;
+}
+
+.pl{
+    background-color: #E5E4E2;
+    padding: 1rem;
+}
+
+.img{
+    height:200px;
+}
+
+
+.desktop-img{
+width: 100%;
+height: auto;
+}
+
+.BF{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    height: 50vh;
+}
+
+.BF h1{
+    font-size: 8rem;
+}
+
+.logo img{
+    height: 380px;
+}
+
+.logo{
+    margin-top: -10rem;
+}
+}
+
+.middle {
+    position: relative;
+}
+.desk-img {
+    display: none;
+    height: 500px;
+width: fit-content;
+}
+
+.desk-img.active {
+    display: block;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.arrow.left {
+    left: -1rem;
+}
+.arrow.right {
+    right: -1rem;
+}
+
+@media (max-width: 768px){
+    .desk-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.homep{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
