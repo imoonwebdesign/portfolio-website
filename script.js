@@ -1,12 +1,25 @@
 
-document.querySelector(".list").addEventListener("click", function() {
+var navMenu = document.querySelector("nav ul");
+var navIcon = document.querySelector(".list");
 
-    if (document.querySelector("nav ul").style.visibility === "visible") {
-      document.querySelector("nav ul").style.visibility = "hidden";
+function hideMenu() {
+    navMenu.style.display = "none";
+}
+
+navIcon.addEventListener("click", function() {
+    if (navMenu.style.display === "block") {
+        hideMenu(); 
     } else {
-      document.querySelector("nav ul").style.visibility = "visible";
+        navMenu.style.display = "block"; 
     }
-  });
+});
+
+document.addEventListener("click", function(event) {
+    var isClickInsideNav = navIcon.contains(event.target) || navMenu.contains(event.target);
+    if (!isClickInsideNav) {
+        hideMenu();
+    }
+});
 
 
 

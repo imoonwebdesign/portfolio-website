@@ -44,11 +44,11 @@ nav{
 }
 
 nav ul{
-    list-style-type: none; /* Убираем маркеры (точки) у списка */
+    list-style-type: none;
     display: flex; 
     gap: 40px;
     justify-content: center;
-    align-items: center; /* Выравниваем элементы по вертикали */
+    align-items: center; 
     margin: 0;
     visibility: visible;
 }
@@ -73,25 +73,26 @@ nav ul li a:hover{
         display: block; /* Показать иконку на маленьких экранах */
     }
 
-    nav ul{
-        visibility: hidden; /* Скрыть навигационное меню на маленьких экранах */
-        flex-direction: column;
-        gap: 0px;
-        padding: 0;
-        margin: 0;
+    ul{
+        position:relative;
         align-items:start;
+        background-color: rgba(54, 41, 35, 0.9);
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+        width: 60px;
+        padding: 0 1rem;
+        }
+
+    nav ul{
+        gap: 0;
+        display: none;
     }
 
     nav ul li{
-        background-color: rgba(54, 41, 35, 0.9);
+        display: block;
         width: 60px;
-        padding: 0 1rem;
     }
-/* 
-    .nav{
-        background-color: rgba(54, 41, 35, 0.8);
-    } */
-    
 }
 
 .hello{
@@ -105,8 +106,7 @@ nav ul li a:hover{
 
 .hello img{
     z-index: 1;
-    margin-top: -2rem; /* Отрицательный отступ для приближения изображения к тексту */
-
+    margin-top: -2rem; 
 }
 
 .hello h2{
@@ -117,7 +117,7 @@ nav ul li a:hover{
 }
 
 .span{
-    color: transparent; /* Прозрачный цвет текста */
+    color: transparent;
     background-image: url(./images/IMG_6159.PNG);
     background-position: center;
     -webkit-background-clip: text; /* Применяем фоновое изображение к тексту для браузеров на основе WebKit */
@@ -163,7 +163,7 @@ nav ul li a:hover{
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Центрирует содержимое по вертикали */
+    justify-content: center; 
     align-items: center;
 }
 
@@ -184,7 +184,7 @@ nav ul li a:hover{
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Центрирует содержимое по вертикали */
+    justify-content: center;
     align-items: center;
     font-size: 20px;
     color: #FEFEFF;
@@ -199,7 +199,7 @@ nav ul li a:hover{
     padding: 1rem;
     background-color: #E8E1D1;
     z-index: 1;
-    margin-top: -1rem; /* Отрицательный отступ для приближения изображения к тексту */
+    margin-top: -1rem; 
 
 }
 
@@ -268,8 +268,8 @@ span a{
 }
 
 .portfolio-item a {
-    display: block; /* Устанавливаем блочный тип отображения */
-    height: 300px; /* Задаем высоту элемента равной 100% */
+    display: block; 
+    height: 300px; 
 }
 
 .lastimg{
